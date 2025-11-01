@@ -1,0 +1,67 @@
+[
+    {
+        "question": "What is the capital of France?",
+        "options": ["Berlin", "Madrid", "Paris", "Rome"],
+        "answer": "3"
+    },
+    {
+        "question": "Who is the creator of Javascript?",
+        "options": ["Brendan Eich", "Guido van Rossum", "James Gosling", "Bjarne Stroustrup"],
+        "answer": "1"
+    },
+    {
+        "question": "What is 2 + 2?",
+        "options": ["3", "4", "5", "6"],
+        "answer": "2"
+    },
+    {
+        "question": "Which planet is known as the Red Planet?",
+        "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+        "answer": "2"
+    },
+    {
+        "question": "What is the largest ocean on Earth?",
+        "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+        "answer": "4"
+    },
+    {
+        "question": "Who wrote 'Romeo and Juliet'?",
+        "options": ["Charles Dickens", "William Shakespeare", "Mark Twain", "Jane Austen"],
+        "answer": "2"
+    },
+    {
+        "question": "What is the chemical symbol for water?",
+        "options": ["O2", "H2O", "CO2", "NaCl"],
+        "answer": "2"
+    },
+    {
+        "question": "In which year did the Titanic sink?",
+        "options": ["1912", "1905", "1898", "1920"],
+        "answer": "1"
+    },
+    {
+        "question": "What is the hardest natural substance on Earth?",
+        "options": ["Gold", "Iron", "Diamond", "Silver"],
+        "answer": "3"
+    },
+    {
+        "question": "Who painted the Mona Lisa?",
+        "options": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"],
+        "answer": "3"
+    },
+    {
+        "question": "What is the smallest prime number?",
+        "options": ["0", "1", "2", "3"],
+        "answer": "3"
+    },
+    {
+        "question": "Which gas do plants absorb from the atmosphere?",
+        "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
+        "answer": "3"
+    },
+    {   
+        "question": "What is the currency of Japan?",
+        "options": ["Yen", "Dollar", "Euro", "Won"],
+        "answer": "1"
+    }
+]
