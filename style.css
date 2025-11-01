@@ -1,0 +1,167 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: #20232a;
+  color: #fff;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 2rem;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #61dafb;
+}
+
+/* Dropdowns */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 2.5rem;
+  background-color: #282c34;
+  min-width: 180px;
+  list-style: none;
+  border-radius: 5px;
+}
+
+.dropdown-content li a {
+  display: block;
+  padding: 0.7rem 1rem;
+  color: white;
+}
+
+.dropdown-content li a:hover {
+  background-color: #3c4048;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 4rem 2rem;
+  background-color: #282c34;
+  color: white;
+}
+
+.hero-text {
+  flex: 1 1 400px;
+  padding: 1rem;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.primary-btn, .secondary-btn {
+  padding: 0.7rem 1.4rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.primary-btn {
+  background-color: #61dafb;
+  color: black;
+}
+
+.secondary-btn {
+  background-color: transparent;
+  border: 1px solid #61dafb;
+  color: #61dafb;
+}
+
+.hero-image img {
+  max-width: 250px;
+}
+
+/* Apps Section */
+.apps {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.icon-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.app-icon {
+  width: 80px;
+  height: 80px;
+  background-color: #f3f3f3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  border-radius: 15px;
+  transition: transform 0.2s ease;
+}
+
+.app-icon:hover {
+  transform: scale(1.1);
+}
+
+/* Footer */
+.footer {
+  background-color: #20232a;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 0;
+}
